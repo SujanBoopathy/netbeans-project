@@ -82,6 +82,8 @@ public class CkServlet extends HttpServlet {
             out.println("No items in the cart");
             out.println("<br><a href=\"index.html\">Add more items in the cart</a>");
         }
+        out.println("</body>");
+        out.println("</html>");
     }
 
     /**
@@ -110,7 +112,8 @@ public class CkServlet extends HttpServlet {
         out.println("<a href=\"index.html\">ADD MORE ITEMS IN THE CART</a><br>");
         out.println("<a href=\"CkServlet\">VIEW ITEMS IN THE CART</a><br>");
         
-        
+        out.println("</body>");
+        out.println("</html>");
     }
 
     /**
